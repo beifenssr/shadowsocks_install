@@ -42,3 +42,7 @@ haproxy.sh
 - https://shadowsocks.be/10.html
 
 Copyright (C) 2014-2017 Teddysun
+
+wget --no-check-certificate -O shadowsocks-all.sh https://raw.githubusercontent.com/beifenssr/shadowsocks_install/master/shadowsocks-all.sh
+chmod +x shadowsocks-all.sh
+./shadowsocks-all.sh 2>&1 | tee shadowsocks-all.log
